@@ -51,11 +51,12 @@ For more information, see "[About permissions for {% data variables.product.prod
 {% if currentVersion == "free-pro-team@latest" %}
 ### About billing for {% data variables.product.prodname_registry %}
 
-{% data reusables.package_registry.packages-billing %} {% data reusables.package_registry.packages-spending-limit-brief %} For more information, see "[About billing for {% data variables.product.prodname_registry %}](/github/setting-up-and-managing-billing-and-payments-on-github/about-billing-for-github-packages)."
+{% data reusables.package_registry.packages-billing %} {% data reusables.package_registry.packages-spending-limit-brief %} For more information, see "[About billing for {% data variables.product.prodname_registry %}](/billing/managing-billing-for-github-packages/about-billing-for-github-packages)."
 
 {% endif %}
 
 ### Supported clients and formats
+<!-- If you make changes to this feature, update /getting-started-with-github/github-language-support to reflect any changes to supported clients or formats. -->
 
 {% data variables.product.prodname_registry %} uses the native package tooling commands you're already familiar with to publish and install package versions.
 #### Support for package registries
@@ -88,6 +89,8 @@ For more information about Docker and the {% data variables.product.prodname_con
 ### Authenticating to {% data variables.product.prodname_registry %}
 
 {% data reusables.package_registry.authenticate-packages %}
+
+{% data reusables.package_registry.authenticate-packages-github-token %}
 
 ### Managing packages
 
